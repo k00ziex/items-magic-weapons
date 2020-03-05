@@ -11,7 +11,7 @@
 
   
   <!-- DRAGEDRÆBEREN -->
-  <element name="Dragedraeberen" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_DRAGEDRAEBEREN">
+  <element name="Dragedræberen" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_DRAGEDRAEBEREN">
     <description>
       <p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
       <p class="indent">You have a +2 bonus to attack and damage when making an attack against a dragon type creatue (Wyvern, Drake, Red dragon and so on). 
