@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Weapons</name>
+    <description></description>
+    <author>Rasmus Skjelborg</author>
+    <update version="0.0.1">
+      <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/SkjelleWeapons.xml" /> <!-- CHANGE THIS-->
+    </update>
+  </info>
+
+  
+  <!-- DRAGEDRÆBEREN -->
+  <element name="Dragedraeberen" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_DRAGEDRAEBEREN">
+    <description>
+      <p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+      <p class="indent">You have a +2 bonus to attack and damage when making an attack against a dragon type creatue (Wyvern, Drake, Red dragon and so on). 
+      You also deal 3d6 extra damage against dragon types. You do not know whether this always happens or whether it needs to be recharged at times.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="rarity">Uncommon</set>
+      <set name="enhancement">1</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+  </element>
+  
+  <!-- ORNATE LONGSWORD-->
+  <element name="Ornate Longsword" type="Weapon" source="Skjelborg" id="ID_SKJELBORG_ORNATELONGSWORD">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    <description>
+      <p>This ornate sword has two slots engraved into it. One in the hilt and one in the guard. These slots are used for enchantments.</p>
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="GP">55</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="damage" type="slashing">1d8</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+    </setters>
+  </element>
+</elements>
+
