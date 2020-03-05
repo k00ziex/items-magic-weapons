@@ -5,11 +5,10 @@
     <description></description>
     <author>k00ziEx</author>
     <update version="0.1">
-      <file name="skjelle-campaign.index" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/skjelle-campaign.index" />
+      <file name="skjelle-campaign.index" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle-campaign.index" />
     </update>
   </info>
   <files>
-    <file name="SkjelleWeapons.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/SkjelleWeapons.xml" />
-
+    <file name="SkjelleWeapons.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/SkjelleWeapons.xml" />
   </files>
 </index>
