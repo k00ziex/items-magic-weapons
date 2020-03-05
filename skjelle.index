@@ -5,7 +5,7 @@
     <description></description>
     <author>k00ziEx</author>
     <update version="0.1">
-      <file name="skjelle-campaign.index" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle-campaign.index" />
+      <file name="skjelle.index" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle.index" />
     </update>
   </info>
   <files>
