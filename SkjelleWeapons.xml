@@ -50,22 +50,22 @@
       <p>
         This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While attuned it, you have a +2 bonus to spell attack rolls and spell save DC. It gives +1 to AC when attuned to it.
       </p>
-      <p class="indent">
+      <p>
         <strong>Spells.</strong> You can use an action to cast one of the following spells from it, using your spell save DC:
       </p>
-      <p>
+      <p class="indent">
         <strong><em>Ophæv (Feeblemind)</em></strong> Roll 1d6 after casting, if 1-5 it has a 24hr recharge.
       </p>
-      <p>
+      <p class="indent">
         <strong><em>Oplys (Light)</em></strong> Unlimited charges.
       </p>
-      <p>
+      <p class="indent">
         <strong><em>Opløft</em></strong> Gives creature an int of 20 for 24 hours. 1 time per week.
       </p>
-      <p>
+      <p class="indent">
         <strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 it has a 24hr recharge.
       </p>
-      <p>
+      <p class="indent">
         <strong><em>Opsumer (Recap)</em></strong> Recaps a book, 1/day.
       </p>
       
@@ -94,7 +94,13 @@
       <set name="attunement" addition="by a sorcerer or wizard">true</set>
       <set name="rarity">Legendary</set>
       <set name="slot">onehand</set>
+      <set name="enhancement">2</set>
       <set name="weapon">Quarterstaff</set>
     </setters>
+    <rules>
+      <stat name="ac:misc" value="1" />
+      <stat name="spellcasting:attack" value="2" />
+      <stat name="spellcasting:dc" value="2" />
+    </rules>
   </element>
 </elements>
