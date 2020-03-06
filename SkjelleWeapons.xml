@@ -76,14 +76,12 @@
     </description>
     <setters>
       <set name="category">Magic Weapons</set>
-      <set name="keywords">Sorcerer, Wizard</set>
-      <set name="category">Staffs</set>
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="4">4 lb.</set>
       <set name="slot">onehand</set>
       <set name="weapon">Quarterstaff</set>
       <set name="type">Staff</set>
-      <set name="attunement" addition="by a sorcerer or wizard">true</set>
+      <set name="attunement">true</set>
     </setters>
   </element>
 </elements>
