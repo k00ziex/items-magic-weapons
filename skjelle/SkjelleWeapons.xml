@@ -43,5 +43,39 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
     </setters>
   </element>
+  
+  <!-- KUNDSKABENS STAV -->
+  <element name="Kundskabens stav" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_KUNDSKABENS_STAV">
+    <description>
+      <p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While attuned it, you have a +2 bonus to spell attack rolls and spell save DC.</p>
+      <p class="indent">Gives +1 to AC when attuned to it.</p>
+      
+      <p class="indent">
+        <strong>Spells.</strong> You can use an action to cast one of the following spells from it, using your spell save DC: 
+        <em>Ophæv (Feeblemind)</em> (Roll 1d6 after casting, if 1-5 it has a 24hr recharge), 
+        <em>Oplys (Light)</em> (Unlimited charges), 
+        <em>Opløft</em> (Gives creature an int of 20 for 24 hours. 1 time per week), 
+        <em>Observer (Balthazars light)</em> (Roll 1d6 after casting, if 1-5 it has a 24hr recharge), 
+        <em>Opsumer (Recap)</em> (Recaps a book. 1/day)      
+      </p>
+      
+      <p><strong>Attuning to this staff also gives the following effects:</strong></p>
+      <p class="indent"> The staff doesn't work in magical darkness.</p>
+      <p class="indent"> All holy water within 10 ft evaporates.</p>
+      <p class="indent"> You gain <strong>disadvantage</strong> on saving throws against spells.</p>
+      <p class="indent"> You gain <strong>vulnerability</strong> to all physical damage.</p>
+      <p class="indent"> You gain <strong>resistance</strong> to all magical damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">Sorcerer, Wizard</set>
+      <set name="category">Staffs</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="4">4 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="weapon">Quarterstaff</set>
+      <set name="type">Staff</set>
+      <set name="attunement" addition="by a sorcerer or wizard">true</set>
+    </setters>
+  </element>
 </elements>
 
