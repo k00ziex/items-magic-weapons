@@ -47,8 +47,9 @@
   <!-- KUNDSKABENS STAV -->
   <element name="Kundskabens stav" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_KUNDSKABENSSTAV">
     <description>
-      <p>his staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While attuned it, you have a +2 bonus to spell attack rolls and spell save DC.</p>
-      <p>Gives +1 to AC when attuned to it.</p>
+      <p>
+        This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While attuned it, you have a +2 bonus to spell attack rolls and spell save DC. It gives +1 to AC when attuned to it.
+      </p>
       <p class="indent">
         <strong>Spells.</strong> You can use an action to cast one of the following spells from it, using your spell save DC:
         <em>Ophæv (Feeblemind)</em> (Roll 1d6 after casting, if 1-5 it has a 24hr recharge),
@@ -75,13 +76,15 @@
       
     </description>
     <setters>
-      <set name="category">Magic Weapons</set>
+      <set name="keywords">sorcerer, wizard</set>
+      <set name="category">Staffs</set>
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="4">4 lb.</set>
+      <set name="type">Staff</set>
+      <set name="attunement" addition="by a sorcerer or wizard">true</set>
+      <set name="rarity">Legendary</set>
       <set name="slot">onehand</set>
       <set name="weapon">Quarterstaff</set>
-      <set name="type">Staff</set>
-      <set name="attunement">true</set>
     </setters>
   </element>
 </elements>
