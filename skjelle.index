@@ -4,7 +4,7 @@
     <name>Skjelborgs campaign</name>
     <description></description>
     <author>k00ziEx</author>
-    <update version="0.1">
+    <update version="0.2">
       <file name="skjelle.index" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle.index" />
     </update>
   </info>
