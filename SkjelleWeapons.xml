@@ -14,8 +14,8 @@
   <element name="Dragedræberen" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_DRAGEDRAEBEREN">
     <description>
       <p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-      <p class="indent">You have a +2 bonus to attack and damage when making an attack against a dragon type creatue (Wyvern, Drake, Red dragon and so on). 
-      You also deal 3d6 extra damage against dragon types. You do not know whether this always happens or whether it needs to be recharged at times.</p>
+      <p class="indent">You have a +2 bonus to attack and damage when making an attack against a <strong>dragon</strong> type creatue (Wyvern, Drake, Red dragon and so on).</p>
+      <p class="indent">You also deal 3d6 extra damage against <strong>dragon</strong> types. You do not know whether this always happens or whether it needs to be recharged at times.</p>
     </description>
     <setters>
       <set name="category">Magic Weapons</set>
@@ -47,42 +47,21 @@
   <!-- KUNDSKABENS STAV -->
   <element name="Kundskabens stav" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_KUNDSKABENSSTAV">
     <description>
-      <p>
-        This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While attuned it, you have a +2 bonus to spell attack rolls and spell save DC. It gives +1 to AC when attuned to it.
-      </p>
-      <p>
-        <strong>Spells.</strong> You can use an action to cast one of the following spells from it, using your spell save DC:
-      </p>
-      <p class="indent">
-        <strong><em>Ophæv (Feeblemind)</em></strong> Roll 1d6 after casting, if 1-5 it has a 24hr recharge.
-      </p>
-      <p class="indent">
-        <strong><em>Oplys (Light)</em></strong> Unlimited charges.
-      </p>
-      <p class="indent">
-        <strong><em>Opløft</em></strong> Gives creature an int of 20 for 24 hours. 1 time per week.
-      </p>
-      <p class="indent">
-        <strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 it has a 24hr recharge.
-      </p>
-      <p class="indent">
-        <strong><em>Opsumer (Recap)</em></strong> Recaps a book, 1/day.
-      </p>
+      <p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it.</p>
+      <p>While attuned it, you have a +2 bonus to spell attack rolls, spell save DC and +1 to AC.</p>
+      <p><strong>Spells.</strong>You can use an action to cast one of the following spells from it, using your spell save DC:</p>
+      <p class="indent"><strong><em>Ophæv (Feeblemind)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.</p>
+      <p class="indent"><strong><em>Oplys (Light)</em></strong> Unlimited charges.</p>
+      <p class="indent"><strong><em>Opløft</em></strong> Gives creature an int of 20 for 24 hours. 1/week.</p>
+      <p class="indent"><strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.</p>
+      <p class="indent"><strong><em>Opsumer (Recap)</em></strong> Recaps a book, 1/day.</p>
       
-      <p>
-        <strong>Attuning to this staff also gives the following effects:</strong>
-      </p>
-      <p class="indent"> The staff doesn't work in magical darkness.</p>
-      <p class="indent"> All holy water within 10 ft evaporates.</p>
-      <p class="indent">
-        You gain <strong>disadvantage</strong> on saving throws against spells.
-      </p>
-      <p class="indent">
-        You gain <strong>vulnerability</strong> to all physical damage.
-      </p>
-      <p class="indent">
-        You gain <strong>resistance</strong> to all magical damage.
-      </p>
+      <p><strong>Attuning to this staff also gives the following effects:</strong></p>
+      <p class="indent">The staff doesn't work in magical darkness.</p>
+      <p class="indent">All holy water within 10 ft evaporates.</p>
+      <p class="indent">You gain <strong>disadvantage</strong> on saving throws against spells.</p>
+      <p class="indent">You gain <strong>vulnerability</strong> to all physical damage.</p>
+      <p class="indent">You gain <strong>resistance</strong> to all magical damage.</p>
       
     </description>
     <setters>
