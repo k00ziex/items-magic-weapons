@@ -51,9 +51,9 @@
       <p>While attuned it, you have a +2 bonus to spell attack rolls, spell save DC and +1 to AC.</p>
       <p><strong>Spells.</strong>You can use an action to cast one of the following spells from it, using your spell save DC:</p>
       <p class="indent"><strong><em>Ophæv (Feeblemind)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.</p>
-      <p class="indent"><strong><em>Oplys (Light)</em></strong> Unlimited charges.</p>
+      <p class="indent"><strong><em>Oplys (Light)</em></strong> Unlimited charges. 1 hour duration.</p>
       <p class="indent"><strong><em>Opløft</em></strong> Gives creature an int of 20 for 24 hours. 1/week.</p>
-      <p class="indent"><strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.</p>
+      <p class="indent"><strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge. 1 hour duration.</p>
       <p class="indent"><strong><em>Opsumer (Recap)</em></strong> Recaps a book, 1/day.</p>
       
       <p><strong>Attuning to this staff also gives the following effects:</strong></p>
