@@ -21,11 +21,11 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="3">3 lb.</set>
-      <set name="type" addition="any">Weapon</set>
+      <set name="type" addition="longsword">Weapon</set>
+      <set name="attunement">true</set>
       <set name="rarity">Uncommon</set>
       <set name="enhancement">1</set>
       <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
-      <set name="attunement">true</set>"
     </setters>
   </element>
   
