@@ -25,6 +25,7 @@
       <set name="rarity">Uncommon</set>
       <set name="enhancement">1</set>
       <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+      <set name="attunement">true</set>"
     </setters>
   </element>
   
