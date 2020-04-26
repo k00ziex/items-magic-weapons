@@ -23,8 +23,7 @@
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
       <set name="enhancement">2</set>
-      <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-      <set name="name-format">{{parent}} +{{enhancement}}</set>
+      <set name="armor">Plate</set>
     </setters>
     <rules>
       <stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
