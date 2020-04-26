@@ -8,6 +8,27 @@
       <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleWeapons.xml" /> <!-- CHANGE THIS-->
     </update>
   </info>
+  
+  <!-- Plate +2, Skjelle siger Attunement kræves-->
+  <element name="Plate, +2" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_ARMOR_2">
+    <description>
+      <p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>
+    </description>
+    <setters>
+      <set name="keywords">plate</set>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="plate">Armor</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+      <set name="name-format">{{parent}} +{{enhancement}}</set>
+    </setters>
+    <rules>
+      <stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+    </rules>
+  </element>
 
   
   <!-- DRAGEDRÆBEREN -->
