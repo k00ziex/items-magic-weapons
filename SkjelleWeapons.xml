@@ -8,6 +8,26 @@
       <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleWeapons.xml" /> <!-- CHANGE THIS-->
     </update>
   </info>
+
+  <element name="Shield of Missile Attraction, +1" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_MISSILE_ATTRACTION_SHIELD">
+    <description>
+      <p>While holding this shield, you have resistance to damage from ranged weapon attacks.</p>
+      <p>
+        <strong>Curse.</strong> This shield is cursed. Attuning to it curses you until you are targeted by the <em>remove curse</em> spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords">shield</set>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="shield">Armor</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="cursed">true</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+    </setters>
+  </element>
   
   <!-- Plate +2, Skjelle siger Attunement kræves-->
   <element name="Plate, +2" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_ARMOR_2">
