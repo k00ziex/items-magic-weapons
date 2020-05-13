@@ -28,7 +28,7 @@
       <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
     </setters>
     <rules>
-      <stat name="ac:shield" value="3" bonus="enhancement" />
+      <stat name="ac:shield" value="1" bonus="enhancement" />
     </rules>
   </element>
   
