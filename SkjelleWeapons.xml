@@ -27,6 +27,9 @@
       <set name="enhancement">1</set>
       <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
     </setters>
+    <rules>
+      <stat name="ac:shield" value="3" bonus="enhancement" />
+    </rules>
   </element>
   
   <!-- Plate +2, Skjelle siger Attunement kræves-->
