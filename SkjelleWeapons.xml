@@ -23,8 +23,8 @@
       <set name="type" addition="shield">Armor</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="enhancement">1</set>
       <set name="cursed">true</set>
+      <set name="enhancement">1</set>
       <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
     </setters>
   </element>
