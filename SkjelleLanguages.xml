@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>SkjelleLanguages</name>
+		<update version="0.0.1">
+			<file name="SkjelleLanguages.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleLanguages.xml" />
+		</update>
+	</info>
+
+  <element name="Riojiansk (Handelssproget)" type="Language" source="Skjelborg" id="ID_LANGUAGE_RIOJIANSK">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by dwarves, humans, high-elves, halflings, rock gnomes and half-elves in Dragernes Dal. On top of this, half-orcs, tieflings and dragonborns also speak it but not as their native tongue.</p>
+    </description>
+    <setters>
+      <set name="Exotic">true</set>
+      <set name="speakers">Dwarves, humans, high-elves, halflings, rock gnomes, half-elves, half-orcs, tieflings, dragonborns</set>
+      <set name="script">Riojiansk</set>
+    </setters>
+  </element>
+
+  <element name="Daliansk (Grevetale)" type="Language" source="Skjelborg" id="ID_LANGUAGE_DALIANSK">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by races living more than 100+ years and have irregular contact with the world, meaning wood-elves, marsh-elves and forest gnomes in Dragernes Dal. It is also spoken by the elite in Daler Grevskabet and is often a prerequisite for being accepted as a member.</p>
+    </description>
+    <setters>
+      <set name="Exotic">true</set>
+      <set name="speakers">Dwarves, humans, high-elves, halflings, rock gnomes, half-elves</set>
+      <set name="script">Daliansk</set>
+    </setters>
+  </element>
+
+  <element name="Old-tivansk (Urtungen)" type="Language" source="Skjelborg" id="ID_LANGUAGE_OLD_TIVANSK">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by half-giants (Goliaths) and humans in Tronhjem Jarledømme in Dragernes Dal. The written language is depicted in runes and is alike the language Dwarvish</p>
+    </description>
+    <setters>
+      <set name="Exotic">true</set>
+      <set name="speakers">Goliaths, humans</set>
+      <set name="script">Old-tivansk</set>
+    </setters>
+  </element>
+</elements>

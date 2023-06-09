@@ -10,5 +10,6 @@
   </info>
   <files>
     <file name="SkjelleWeapons.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/SkjelleWeapons.xml" />
+    <file name="SkjelleLanguages.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/SkjelleLanguages.xml" />
   </files>
 </index>
