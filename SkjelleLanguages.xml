@@ -18,7 +18,6 @@
 			<set name="script">Riojiansk</set>
 		</setters>
 	</element>
-
 	<element name="Daliansk (Grevetale)" type="Language" source="Skjelborg" id="ID_LANGUAGE_DALIANSK">
 		<supports>Exotic</supports>
 		<description>
@@ -30,7 +29,6 @@
 			<set name="script">Daliansk</set>
 		</setters>
 	</element>
-
 	<element name="Old-tivansk (Urtungen)" type="Language" source="Skjelborg" id="ID_LANGUAGE_OLD_TIVANSK">
 		<supports>Exotic</supports>
 		<description>
