@@ -5,7 +5,8 @@
     <description></description>
     <author>Rasmus Skjelborg</author>
     <update version="0.0.1">
-      <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleWeapons.xml" /> <!-- CHANGE THIS-->
+      <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleWeapons.xml" />
+      <!-- CHANGE THIS-->
     </update>
   </info>
 
@@ -16,21 +17,21 @@
         <strong>Curse.</strong> This shield is cursed. Attuning to it curses you until you are targeted by the <em>remove curse</em> spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.
       </p>
     </description>
-		<setters>
-			<set name="keywords">shield</set>
-			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="shield">Armor</set>
+    <setters>
+      <set name="keywords">shield</set>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="shield">Armor</set>
       <set name="attunement">true</set>
-			<set name="rarity">Rare</set>
-			<set name="enhancement">2</set>
-			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
-		</setters>
-		<rules>
-			<stat name="ac:shield" value="1" bonus="enhancement" />
-		</rules>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">2</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+    </setters>
+    <rules>
+      <stat name="ac:shield" value="1" bonus="enhancement" />
+    </rules>
   </element>
-  
+
   <!-- Plate +2, Skjelle siger Attunement kræves-->
   <element name="Plate, +2" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_ARMOR_2">
     <description>
@@ -52,13 +53,17 @@
     </rules>
   </element>
 
-  
+
   <!-- DRAGEDRÆBEREN -->
   <element name="Dragedræberen" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_DRAGEDRAEBEREN">
     <description>
       <p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-      <p class="indent">You have a +2 bonus to attack and damage when making an attack against a <strong>dragon</strong> type creatue (Wyvern, Drake, Red dragon and so on).</p>
-      <p class="indent">You also deal 3d6 extra damage against <strong>dragon</strong> types. You do not know whether this always happens or whether it needs to be recharged at times.</p>
+      <p class="indent">
+        You have a +2 bonus to attack and damage when making an attack against a <strong>dragon</strong> type creatue (Wyvern, Drake, Red dragon and so on).
+      </p>
+      <p class="indent">
+        You also deal 3d6 extra damage against <strong>dragon</strong> types. You do not know whether this always happens or whether it needs to be recharged at times.
+      </p>
     </description>
     <setters>
       <set name="category">Magic Weapons</set>
@@ -71,7 +76,7 @@
       <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
     </setters>
   </element>
-  
+
   <!-- ORNATE LONGSWORD-->
   <element name="Ornate Longsword" type="Weapon" source="Skjelborg" id="ID_SKJELBORG_ORNATELONGSWORD">
     <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
@@ -87,26 +92,56 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
     </setters>
   </element>
-  
+
   <!-- KUNDSKABENS STAV -->
   <element name="Kundskabens stav" type="Magic Item" source="Skjelborg" id="ID_SKJELBORG_KUNDSKABENSSTAV">
     <description>
       <p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it.</p>
       <p>While attuned it, you have a +2 bonus to spell attack rolls, spell save DC and +1 to AC.</p>
-      <p><strong>Spells.</strong>You can use an action to cast one of the following spells from it, using your spell save DC:</p>
-      <p class="indent"><strong><em>Ophæv (Feeblemind)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.</p>
-      <p class="indent"><strong><em>Oplys (Light)</em></strong> Unlimited charges. 1 hour duration.</p>
-      <p class="indent"><strong><em>Opløft</em></strong> Gives creature an int of 20 for 24 hours. 1/week.</p>
-      <p class="indent"><strong><em>Observer (Balthazars light)</em></strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge. 1 hour duration.</p>
-      <p class="indent"><strong><em>Opsumer (Recap)</em></strong> Recaps a book, 1/day.</p>
-      
-      <p><strong>Attuning to this staff also gives the following effects:</strong></p>
+      <p>
+        <strong>Spells.</strong>You can use an action to cast one of the following spells from it, using your spell save DC:
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Ophæv (Feeblemind)</em>
+        </strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Oplys (Light)</em>
+        </strong> Unlimited charges. 1 hour duration.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Opløft</em>
+        </strong> Gives creature an int of 20 for 24 hours. 1/week.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Observer (Balthazars light)</em>
+        </strong> Roll 1d6 after casting, if 1-5 is rolled it has a 24 hour recharge. 1 hour duration.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Opsumer (Recap)</em>
+        </strong> Recaps a book, 1/day.
+      </p>
+
+      <p>
+        <strong>Attuning to this staff also gives the following effects:</strong>
+      </p>
       <p class="indent">The staff doesn't work in magical darkness.</p>
       <p class="indent">All holy water within 10 ft evaporates.</p>
-      <p class="indent">You gain <strong>disadvantage</strong> on saving throws against spells.</p>
-      <p class="indent">You gain <strong>vulnerability</strong> to all physical damage.</p>
-      <p class="indent">You gain <strong>resistance</strong> to all magical damage.</p>
-      
+      <p class="indent">
+        You gain <strong>disadvantage</strong> on saving throws against spells.
+      </p>
+      <p class="indent">
+        You gain <strong>vulnerability</strong> to all physical damage.
+      </p>
+      <p class="indent">
+        You gain <strong>resistance</strong> to all magical damage.
+      </p>
+
     </description>
     <setters>
       <set name="keywords">sorcerer, wizard</set>
