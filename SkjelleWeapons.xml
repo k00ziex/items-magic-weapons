@@ -5,7 +5,7 @@
     <description></description>
     <author>Rasmus Skjelborg</author>
     <update version="0.0.1">
-      <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/skjelle/SkjelleWeapons.xml" />
+      <file name="items-weapons-skjelborg.xml" url="https://raw.githubusercontent.com/k00ziex/items-magic-weapons/master/SkjelleWeapons.xml" />
       <!-- CHANGE THIS-->
     </update>
   </info>
